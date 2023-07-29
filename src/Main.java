@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // calling final christmas tree making method
+        // asking user for height then calling
+        // the christmas tree making method
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a height for tree (bigger than 3): ");
         int ht = input.nextInt();
@@ -28,7 +29,7 @@ public class Main {
     }
 
     public static void printChristmasTree(int number) {
-        // final method that make the body of christmas tree
+        // final method that makes the body of christmas tree
         int cntr = 1;
         --number;
 
